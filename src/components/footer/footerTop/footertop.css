@@ -1,0 +1,93 @@
+.footerTop {
+  height: 384px;
+  background-color: #041E50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+
+.assine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.cartoes {
+  width: 70%;
+}
+
+.cartoes img {
+  margin-right: 7px;
+  margin-top: 5px;
+}
+
+.cartoesSeguro img {
+  margin-right: 12px;
+  width: 73px;
+  height: 40px;
+}
+
+.assine {
+  width: 17%;
+  min-width: 250px;
+  height: 70%;
+  min-height: 276px;
+  border-radius: 6px;
+  padding: 25px;
+  background-color: white;
+  color: #041E50;
+}
+
+.assine span {
+  height: 60px;
+  width: 100%;
+  margin-top: 19px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16,8px;
+}
+
+.assine span strong {
+  font-weight: 800px;
+}
+
+.assine div {
+  margin: px 0px;
+}
+
+.assine input {
+  height: 40px;
+  width: 100%;
+  min-width: 214px;
+  margin-bottom: 10px;
+  border: 0px;
+  border-bottom: 0.6px solid #041E50;
+  padding-left: 10px;
+  outline: none;
+}
+
+.assine button {
+  cursor: pointer;
+  width: 50%;
+  height: 35px;
+  margin-top: 20px;
+  border: 1px solid #041E50;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=footertop.css.map */

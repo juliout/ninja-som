@@ -1,5 +1,6 @@
 import {BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './components/header'
+import Footer from './components/footer'
 
 export default function Routes(){
     return(
@@ -9,6 +10,7 @@ export default function Routes(){
                 <Route exact path='/' component=''/>
                 <Route exact path='*' component=''/>
             </Switch>
+            <Footer/>
         </BrowserRouter>
     )
 }
