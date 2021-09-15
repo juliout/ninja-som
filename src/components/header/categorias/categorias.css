@@ -4,6 +4,7 @@
 }
 
 .categorias ul {
+  padding-right: 100px;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
