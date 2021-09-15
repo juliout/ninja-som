@@ -1,0 +1,24 @@
+.topMiddlePai{
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  
+}
+.podutosMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
