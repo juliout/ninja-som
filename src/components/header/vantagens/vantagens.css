@@ -1,0 +1,46 @@
+.navVantagens {
+  height: 38px;
+  background-color: #041E50;
+}
+
+.navVantagens ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 5%;
+  color: white;
+}
+
+.navVantagens li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navVantagens img {
+  width: 17px;
+  height: 22px;
+  margin-right: 19px;
+}
+
+.navVantagens span {
+  height: 19px;
+  width: 0px;
+  border: 1px solid #FFFFFF;
+}
+/*# sourceMappingURL=vantagens.css.map */

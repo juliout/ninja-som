@@ -1,0 +1,35 @@
+$corPrimaria: #041E50;
+
+.navVantagens{
+    
+    height: 38px;
+    background-color: $corPrimaria;
+    
+    ul{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 5%;
+        color: white;
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img{
+        width: 17px;
+        height: 22px;
+        margin-right: 19px;
+    }
+  
+    span{
+        height: 19px;
+        width: 0px;
+        border: 1px solid #FFFFFF;
+    }
+
+}

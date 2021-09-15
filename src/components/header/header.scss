@@ -1,0 +1,131 @@
+$corPrimaria: #041E50;
+*{
+    a{
+        color: $corPrimaria;
+    }
+}
+.navHeader{
+    hr{
+        border:1px solid rgba(120, 117, 117, 0.22);
+    }
+}
+
+.telefone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        margin-right: 10px;
+    }
+}
+
+.navPesquisa{
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    height: 76px;
+  
+    color: $corPrimaria;
+    img{
+        width: 180;
+        height: 28px;
+    }
+    input{
+        width: 339px;
+        height: 41px;
+        margin: 0 41px;
+        padding: 16px 26px;
+        outline: none;
+        border: 1px solid #707070;
+        border-radius: 4px;
+        font-size: 9px;
+        font-weight: 9px;
+        letter-spacing: 5%;
+
+        
+        
+    }
+    a{
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 5%;
+        
+        
+    }
+
+   
+}
+
+.inputPesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        position: absolute;
+        margin-left: 147px ;
+    }
+}
+.navVisitante{
+
+    display: flex;
+    align-items: center;
+    margin: 0 48px;
+    img{
+        margin-right: 10px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+
+        span{
+            font-size: 10px;
+            line-height: 10px;
+            letter-spacing: 9%;
+            margin-bottom: 5px;
+        }
+        a{
+            font-size: 7px;
+            line-height: 7px;
+            letter-spacing: 9%;
+            
+        }
+    }
+
+}
+.navCarrinho{
+    height: 102px;
+    width: 72px;
+    min-width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $corPrimaria;
+    color: white;
+    img{
+        width: 22,7px;
+        height: 27,35px;
+
+    }
+span{
+        font-size: 7px;
+        line-height: 7px;
+        letter-spacing: 9%;
+        color: white
+    }
+    p{
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 9%;
+    }
+}
+

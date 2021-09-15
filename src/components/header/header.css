@@ -1,0 +1,158 @@
+* a {
+  color: #041E50;
+}
+
+.navHeader hr {
+  border: 1px solid rgba(120, 117, 117, 0.22);
+}
+
+.telefone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.telefone img {
+  margin-right: 10px;
+}
+
+.navPesquisa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  height: 76px;
+  color: #041E50;
+}
+
+.navPesquisa img {
+  width: 180;
+  height: 28px;
+}
+
+.navPesquisa input {
+  width: 339px;
+  height: 41px;
+  margin: 0 41px;
+  padding: 16px 26px;
+  outline: none;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  font-size: 9px;
+  font-weight: 9px;
+  letter-spacing: 5%;
+}
+
+.navPesquisa a {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 5%;
+}
+
+.inputPesquisar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inputPesquisar img {
+  position: absolute;
+  margin-left: 147px;
+}
+
+.navVisitante {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 48px;
+}
+
+.navVisitante img {
+  margin-right: 10px;
+}
+
+.navVisitante div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navVisitante div span {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 9%;
+  margin-bottom: 5px;
+}
+
+.navVisitante div a {
+  font-size: 7px;
+  line-height: 7px;
+  letter-spacing: 9%;
+}
+
+.navCarrinho {
+  height: 102px;
+  width: 72px;
+  min-width: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #041E50;
+  color: white;
+}
+
+.navCarrinho img {
+  width: 22,7px;
+  height: 27,35px;
+}
+
+.navCarrinho span {
+  font-size: 7px;
+  line-height: 7px;
+  letter-spacing: 9%;
+  color: white;
+}
+
+.navCarrinho p {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 9%;
+}
+/*# sourceMappingURL=header.css.map */
