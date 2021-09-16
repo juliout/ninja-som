@@ -26,7 +26,9 @@ export default function Produto({imagem, nome, descricao, preco, id}){
             </div>
             
         </div>
-        {openModal ? <Modal imagem={imagem} nome={nome} descricao={descricao} preco={preco} id={id}/> : null}
+        {openModal ? <Modal closeModal={setOpenModal}
+        imagem={imagem} nome={nome} descricao={descricao} preco={preco} id={id}/> 
+        : null}
         </>
     )
 }
