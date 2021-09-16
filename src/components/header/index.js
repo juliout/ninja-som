@@ -23,7 +23,7 @@ export default function Header(){
                     </div>
                     
                     <div className="navVisitante">
-                        <img src="/images/svg/boneco.svg" alt="" srcset="" />
+                        <img src="/images/svg/boneco.svg" alt=""/>
                         <div>
                             <span>OLÁ, VISITANTE</span>
                             <a href='/'>MINHA CONTA</a>

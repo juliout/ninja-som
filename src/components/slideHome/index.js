@@ -3,7 +3,6 @@ import './slide.css'
 export default function Slide(){
 
 
-
     return(
 
         <div className="slider">
@@ -14,11 +13,11 @@ export default function Slide(){
                     <img src="/images/outros/setaDireita.png" alt="" id='setaDireita'/>
             </div>
             <div className="slides">
-                <input type="radio"  name="btnRadio" id="radio1" />
-                <input type="radio"  name="btnRadio" id="radio2" />
-                <input type="radio"  name="btnRadio" id="radio3" />
-                <input type="radio"  name="btnRadio" id="radio4" />
-                <input type="radio"  name="btnRadio" id="radio5" />
+                <input type="radio"  name="btnRadio" id="radio1" className='radioInput' />
+                <input type="radio"  name="btnRadio" id="radio2" className='radioInput'/>
+                <input type="radio"  name="btnRadio" id="radio3" className='radioInput'/>
+                <input type="radio"  name="btnRadio" id="radio4" className='radioInput'/>
+                <input type="radio"  name="btnRadio" id="radio5" className='radioInput'/>
 
                 <div className="slide first">
                     <div className="textoSlide">
