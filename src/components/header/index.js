@@ -2,7 +2,7 @@ import './header.css'
 import Vantagens from './vantagens'
 import Categorias from './categorias'
 
-export default function Header(){
+export default function Header() {
 
     const telefone = '(11) 99999-9999'
 
@@ -41,6 +41,7 @@ export default function Header(){
                 </div>
             </div>
             <hr/>
+            
         <Categorias/>
         </nav>
     )

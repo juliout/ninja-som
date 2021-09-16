@@ -4,17 +4,14 @@ import Produto from './produto'
 import ninjaApi from '../../services/apis'
 
 
-export default function Vitrine(){
+export default function Vitrine() {
 
     let [produtos, setProduto] = useState([])
 
-    useEffect(()=>{
-
+    useEffect(() => {
         async function foundProduto(){
            const response = await ninjaApi.get('teste-front-end/junior/ninja-som/lista-produtos/produtos.json')
-           setProduto(response.data.products)
-            
-            
+           setProduto(response.data.products)    
         }
         foundProduto()
     },[])

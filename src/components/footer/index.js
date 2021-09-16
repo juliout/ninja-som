@@ -2,7 +2,7 @@ import './footer.css'
 import FooterTop from './footerTop'
 import FooterBottom from './footerBottom'
 
-export default function Footer(){
+export default function Footer() {
 
     return(
 

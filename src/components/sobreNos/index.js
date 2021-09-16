@@ -1,6 +1,6 @@
 import './sobreNos.css'
 
-export default function SobreNos(){
+export default function SobreNos() {
 
     return(
 
@@ -9,6 +9,7 @@ export default function SobreNos(){
                 <img src="/images/outros/setaEsquerda2.png" alt="" />
                 <img src="/images/outros/setaDireita2.png" alt="" />
             </div>
+            
             <div className="sobreNosConteudo">
                 <h1>SOBRE NÓS</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.

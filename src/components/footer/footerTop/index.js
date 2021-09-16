@@ -1,7 +1,7 @@
 import './footertop.css'
 import Listas from '../listas'
 
-export default function FooterTop(){
+export default function FooterTop() {
 
     return(
         
@@ -58,5 +58,6 @@ export default function FooterTop(){
             <button>ENVIAR</button>
         </div>
     </div>
+    
     )
 }

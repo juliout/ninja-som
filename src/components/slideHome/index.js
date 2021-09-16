@@ -10,8 +10,7 @@ export default function Slide() {
             contador = 5
             return radio.checked = true
         }        
-        contador--
-             
+        contador--             
         return radio.checked = true
     }
 
@@ -39,8 +38,11 @@ export default function Slide() {
         },5000)
     }
 
-    window.onload = function(){
+    window.onload = function() {
+        
        start()
+       const radio = document.getElementById('radio'+ contador)
+            radio.checked =  true
     }   
 
     return(
