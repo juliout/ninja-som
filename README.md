@@ -1,7 +1,7 @@
 <h1> Olá, Me chamo Julio, e esse repositorio é para um teste que estou enviando para Econverse</h1>
 <p>Esta pagina/projeto é feito em ReactJs, usando gerador de Scss</p>
 
-Para baixar o repositorio clique no botao <span style="color:green">code</span>no canto direito no meio da tela.
+Para baixar o repositorio clique no botao <span style="color:green">code</span>  no canto direito no meio da tela.
 ira abrir essa tela
 <img src="https://i.ibb.co/9hCBmDF/1.png">
 <p>
