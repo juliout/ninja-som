@@ -1,58 +1,56 @@
-
-import { useState, useEffect } from 'react'
 import './slide.css'
 
-export default function Slide(){
+export default function Slide() {
 
-    let [contador, setContador] = useState('1')
-    function esquerda(){
-        if(contador === 1){
+    let contador = 1;
+
+    function esquerda() {
+        const radio = document.getElementById('radio'+ contador)   
+        if (contador <= 1) {
             contador = 5
+            return radio.checked = true
         }        
         contador--
-        const radio = document.getElementById('radio'+ contador)        
+             
         return radio.checked = true
     }
-    function direita(){
+
+    function direita() {
+        const radio = document.getElementById('radio'+ contador)
         if(contador === 5){
-            contador = 0
+            contador = 1
+            return radio.checked = true
         }        
-        contador++
-        const radio = document.getElementById('radio'+ contador)
+        contador++        
         return radio.checked = true
     }
-
-    useEffect(()=>{
         
-    function setaRadio (){
-        console.log(contador)
-        const radio = document.getElementById('radio'+ contador)
-                
-        radio.checked =  true
-        setContador(contador++)
-        if(contador === 6) {
-            contador = 1
-        }       
-        
-    }
-
-    function start(){
-        setInterval(()=>{
-            setaRadio()
+    function start() {
+    
+        setInterval(() => {
+            const radio = document.getElementById('radio'+ contador)
+            radio.checked =  true
+            
+            if(contador >= 5){
+                contador = 1
+            }else{
+                contador++
+            }
         },5000)
     }
-    window.addEventListener("load", start)
-    },[contador])
+
+    window.onload = function(){
+       start()
+    }   
 
     return(
         
         <div className="slider">
-            <div className="setas">
-                
-                    <img src="/images/outros/setaEsquerda.png" alt="" id='setaEsquerda' onClick={()=>{esquerda()}}/>                
-                    <img src="/images/outros/setaDireita.png" alt="" id='setaDireita' onClick={()=>{direita()}}/>
-
+            <div className="setas">                
+                <img src="/images/outros/setaEsquerda.png" alt="" id='setaEsquerda' onClick={()=>{esquerda()}}/>                
+                <img src="/images/outros/setaDireita.png" alt="" id='setaDireita' onClick={()=>{direita()}}/>
             </div>
+
             <div className="slides">
                 <input type="radio" name="btnRadio" id="radio1" className='radioInput' />
                 <input type="radio"  name="btnRadio" id="radio2" className='radioInput'/>
@@ -61,7 +59,6 @@ export default function Slide(){
                 <input type="radio"  name="btnRadio" id="radio5" className='radioInput'/>
 
                 <div className="slide first">
-
                     <div className="textoSlide">
                         <p>NOVOS PRODUTOS</p>
                         <h1>INSTRUMENTOS</h1>
