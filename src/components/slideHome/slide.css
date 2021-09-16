@@ -19,8 +19,8 @@
 
 .slide {
   width: 20%;
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 1s;
+  transition: 1s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

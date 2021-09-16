@@ -1,6 +1,6 @@
 .vitrinePai {
   width: 80%;
-  height: 860px;
+  min-height: 860px;
   margin: 70px auto;
   display: -webkit-box;
   display: -ms-flexbox;

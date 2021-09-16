@@ -2,7 +2,7 @@
   width: 100%;
   min-width: 800px;
   height: 38%;
-  min-height: 380px;
+  min-height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,6 +25,7 @@
 .confiraEsquerda img {
   width: 100%;
   height: 100%;
+  min-height: 500px;
 }
 
 .confiraDireita {
@@ -44,6 +45,7 @@
 .confiraDireita img {
   width: 100%;
   height: 100%;
+  min-height: 500px;
 }
 
 .textoMiddle {
