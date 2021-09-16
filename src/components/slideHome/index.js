@@ -1,19 +1,59 @@
+
+import { useState, useEffect } from 'react'
 import './slide.css'
 
 export default function Slide(){
 
+    let [contador, setContador] = useState('1')
+    function esquerda(){
+        if(contador === 1){
+            contador = 5
+        }        
+        contador--
+        const radio = document.getElementById('radio'+ contador)        
+        return radio.checked = true
+    }
+    function direita(){
+        if(contador === 5){
+            contador = 0
+        }        
+        contador++
+        const radio = document.getElementById('radio'+ contador)
+        return radio.checked = true
+    }
+    useEffect(()=>{
+        
+    function setaRadio (){
+        console.log(contador)
+        const radio = document.getElementById('radio'+ contador)
+                
+        radio.checked =  true
+        setContador(contador++)
+        if(contador === 6) {
+            contador = 1
+        }       
+        
+    }
+
+    function start(){
+        setInterval(()=>{
+            setaRadio()
+        },5000)
+    }
+    window.addEventListener("load", start)
+    },[contador])
 
     return(
-
+        
         <div className="slider">
             <div className="setas">
                 
-                    <img src="/images/outros/setaEsquerda.png" alt="" id='setaEsquerda' />
+                    <img src="/images/outros/setaEsquerda.png" alt="" id='setaEsquerda' onClick={()=>{esquerda()}}/>
                 
-                    <img src="/images/outros/setaDireita.png" alt="" id='setaDireita'/>
+                    <img src="/images/outros/setaDireita.png" alt="" id='setaDireita' onClick={()=>{direita()}}/>
             </div>
             <div className="slides">
-                <input type="radio"  name="btnRadio" id="radio1" className='radioInput' />
+                <input type="radio" name="btnRadio" id="radio1" className='radioInput' />
                 <input type="radio"  name="btnRadio" id="radio2" className='radioInput'/>
                 <input type="radio"  name="btnRadio" id="radio3" className='radioInput'/>
                 <input type="radio"  name="btnRadio" id="radio4" className='radioInput'/>

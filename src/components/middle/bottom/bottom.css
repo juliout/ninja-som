@@ -101,4 +101,14 @@
   color: white;
   font-size: 13px;
 }
+
+.textoMiddle button:hover {
+  background-color: white;
+  color: #041E50;
+  border: 1px solid #041E50;
+}
+
+.textoMiddle button:hover a {
+  color: #041E50;
+}
 /*# sourceMappingURL=bottom.css.map */
