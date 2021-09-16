@@ -1,5 +1,7 @@
 import './designer.css'
+
 export default function Designer(){
+
     return(
         <div className='designerContainer'>
             <img src="/images/outros/graySetaEsquerda.png" alt="" className='setaEsquerda' />
@@ -18,5 +20,6 @@ export default function Designer(){
                 </div>
             <img src="/images/outros/graySetaDireita.png" alt="" className='setaDireita' />
         </div>
+        
     )
 }

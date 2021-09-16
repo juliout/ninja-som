@@ -2,7 +2,9 @@ import './footertop.css'
 import Listas from '../listas'
 
 export default function FooterTop(){
+
     return(
+        
     <div className="footerTop">
         <div className="leftList">
             <Listas>

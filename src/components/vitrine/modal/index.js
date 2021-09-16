@@ -1,5 +1,7 @@
 import './modal.css'
+
 export default function Modal({imagem, nome, descricao, preco, id, closeModal}){
+
     return(
         <div className='modalItem'>
             <div className="containerModal">
@@ -20,5 +22,6 @@ export default function Modal({imagem, nome, descricao, preco, id, closeModal}){
                 </div>
             </div>
         </div>
+        
     )
 }

@@ -1,6 +1,9 @@
 import './marcas.css'
+
 export default function Marcas(){
+
     return(
+
         <div className='melhoresMarcas'>
             <div className='topMarcas'>
                 <span>AS <strong>MELHORES</strong> MARCAS</span>
@@ -13,5 +16,6 @@ export default function Marcas(){
                 <img src="/images/outros/shure.png" alt="" />
             </div>
         </div>
+        
     )
 }

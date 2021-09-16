@@ -1,7 +1,9 @@
 import './categorias.css'
 
 export default function Categorias(){
+
     return(
+
         <div className="categorias">
             <ul>
                 <li>TODAS AS CATEGORIAS <img src="/images/svg/setaBaixo.svg" alt="" /> </li>
@@ -11,5 +13,6 @@ export default function Categorias(){
                 <li>CONTATO</li>
             </ul>
         </div>
+        
     )
 }

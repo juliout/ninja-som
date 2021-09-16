@@ -1,7 +1,9 @@
-
 import './bottom.css'
+
 export default function BottomMiddle(){
+
     return(
+        
         <div className="bottomMiddle">
             <div className='confiraEsquerda'>
                 <div className="textoMiddle">

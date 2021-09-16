@@ -1,6 +1,9 @@
 import './sobreNos.css'
+
 export default function SobreNos(){
+
     return(
+
         <div className='SobreNos'>
             <div className='setasTop'>
                 <img src="/images/outros/setaEsquerda2.png" alt="" />
@@ -16,5 +19,6 @@ export default function SobreNos(){
                     and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. </p>
             </div>
         </div>
+        
     )
 }

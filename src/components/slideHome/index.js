@@ -21,6 +21,7 @@ export default function Slide(){
         const radio = document.getElementById('radio'+ contador)
         return radio.checked = true
     }
+
     useEffect(()=>{
         
     function setaRadio (){
@@ -48,9 +49,9 @@ export default function Slide(){
         <div className="slider">
             <div className="setas">
                 
-                    <img src="/images/outros/setaEsquerda.png" alt="" id='setaEsquerda' onClick={()=>{esquerda()}}/>
-                
+                    <img src="/images/outros/setaEsquerda.png" alt="" id='setaEsquerda' onClick={()=>{esquerda()}}/>                
                     <img src="/images/outros/setaDireita.png" alt="" id='setaDireita' onClick={()=>{direita()}}/>
+
             </div>
             <div className="slides">
                 <input type="radio" name="btnRadio" id="radio1" className='radioInput' />
@@ -60,6 +61,7 @@ export default function Slide(){
                 <input type="radio"  name="btnRadio" id="radio5" className='radioInput'/>
 
                 <div className="slide first">
+
                     <div className="textoSlide">
                         <p>NOVOS PRODUTOS</p>
                         <h1>INSTRUMENTOS</h1>
@@ -124,7 +126,6 @@ export default function Slide(){
                 <label htmlFor="radio5" className="btnManual"></label>
             </div>
 
-            
         </div>
     )
 }

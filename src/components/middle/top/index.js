@@ -1,7 +1,9 @@
 import './top.css'
 
 export default function TopMiddle(){
+
     return(
+        
         <div className='topMiddlePai'>
             <div className="podutosMiddle">
                 <a href="/">
