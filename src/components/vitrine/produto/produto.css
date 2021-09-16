@@ -28,11 +28,20 @@
   opacity: 1;
 }
 
+.produtoContainer:hover div:nth-child(2) {
+  -webkit-transform: translate(0, -20px);
+          transform: translate(0, -20px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0.4;
+}
+
 .view {
   margin-left: 6.5%;
   position: absolute;
   z-index: 9;
   opacity: 0;
+  border-radius: 30px;
 }
 
 .view p {
@@ -43,14 +52,8 @@
   width: 30px;
   height: 30px;
   border-radius: 30px;
-}
-
-.quick:hover img {
-  -webkit-transform: translate(0, -20px);
-          transform: translate(0, -20px);
-  -webkit-transition: 1s;
-  transition: 1s;
-  opacity: 0.5;
+  -webkit-box-shadow: 1px 1px 6px white;
+          box-shadow: 1px 1px 6px white;
 }
 
 .container {

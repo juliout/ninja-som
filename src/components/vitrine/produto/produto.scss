@@ -17,16 +17,21 @@
         opacity: 1;
     }
     
-   
+    &:hover div:nth-child(2){
+        transform: translate(0, -20px);
+        transition: 1s;
+        opacity: 0.4;
+    }
     
 }
 .view{
-        
-    margin-left: 6.5%;
     
+    margin-left: 6.5%;    
     position: absolute;
     z-index: 9;
     opacity: 0;
+    border-radius: 30px;
+    
     p{
         font-size: 10px;
     }
@@ -34,15 +39,12 @@
         width: 30px;
         height: 30px;
         border-radius: 30px;
+        box-shadow: 1px 1px 6px white;
+        
     }
 
 }
-.quick:hover img{
-    transform: translate(0, -20px);
-    transition: 1s;
-    opacity: 0.5;
-    
-}
+
 
 .container{
     

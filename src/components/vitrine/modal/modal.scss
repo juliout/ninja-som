@@ -1,0 +1,101 @@
+$primeiraCor: #041E50;
+
+.modalItem{
+    background-color: rgba(0, 0, 0, 0.247);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vw;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    color: $primeiraCor;
+    
+}
+.containerModal{
+    background-color: white;
+    width: 60%;
+    min-width: 600px;
+    height: 25%;
+    min-height: 300px;
+    margin-top: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;    
+}
+.mTop{
+   
+    height: 10%;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: right;
+}
+#buttonClose{
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: gray;
+    border: none;
+    margin-top: 0;
+
+}
+.mBottom{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+        
+}
+.showImg{
+    
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.modalDados{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    h1{
+        font-size: 27px;
+    }
+    p{
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 700;
+        font-weight: bold;
+    }
+    span{
+        font-size: 12px;
+        margin: 20px 0;
+    }
+    a{
+        margin: 20px 0;
+        text-decoration: underline;
+    }
+    img{
+        width: 5px;
+        height: 8px;
+    }
+    button{
+        height: 45px;
+        min-height: 45px;
+        width: 50%;
+        min-width: 100px;
+        background-color: $primeiraCor;
+        color: white;
+        border: 1px solid white;
+    }
+
+}

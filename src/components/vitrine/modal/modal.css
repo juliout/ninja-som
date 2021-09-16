@@ -1,0 +1,129 @@
+.modalItem {
+  background-color: rgba(0, 0, 0, 0.247);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vw;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #041E50;
+}
+
+.containerModal {
+  background-color: white;
+  width: 60%;
+  min-width: 600px;
+  height: 25%;
+  min-height: 300px;
+  margin-top: 10%;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mTop {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+#buttonClose {
+  width: 50px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 30px;
+  color: gray;
+  border: none;
+  margin-top: 0;
+}
+
+.mBottom {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+
+.showImg {
+  width: 30%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.showImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.modalDados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.modalDados h1 {
+  font-size: 27px;
+}
+
+.modalDados p {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+.modalDados span {
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.modalDados a {
+  margin: 20px 0;
+  text-decoration: underline;
+}
+
+.modalDados img {
+  width: 5px;
+  height: 8px;
+}
+
+.modalDados button {
+  height: 45px;
+  min-height: 45px;
+  width: 50%;
+  min-width: 100px;
+  background-color: #041E50;
+  color: white;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=modal.css.map */
